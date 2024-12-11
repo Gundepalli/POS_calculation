@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "4ec6246d-27f8-4dea-9391-52ba87f78fac",
+		"name": "Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "17071336",
+		"_collection_link": "https://interstellar-equinox-790840.postman.co/workspace/New-Team-Workspace~9107ae4c-5bc4-454c-bc34-dc9bb5995f89/collection/17071336-4ec6246d-27f8-4dea-9391-52ba87f78fac?action=share&source=collection_link&creator=17071336"
+	},
+	"item": [
+		{
+			"name": "https://www-api.pos.com.my/api/price",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"country\": \"Malaysia\",\r\n    \"weight\": 20,\r\n    \"postcodeFrom\": 2600,\r\n    \"postcodeTo\": 70594\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://www-api.pos.com.my/api/price"
+			},
+			"response": []
+		}
+	]
+}
